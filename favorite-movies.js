@@ -6,10 +6,9 @@ function createPerson(name, age) {
     };
   }
   
-
-  function addPersonAsFriend(personB, personA) {
-    personB.friends.push(personA);
-    return personB;
+  function addPersonAsFriend(person, other) {
+    person.friends.push(other);
+    return person;
   }
   
   module.exports = {
